@@ -1,7 +1,8 @@
 package com.InternetworkingProject.AttackerLab.service;
 
+import com.InternetworkingProject.AttackerLab.entity.Login;
 import com.InternetworkingProject.AttackerLab.entity.User;
 
 public interface LoginService {
-    User login(String uname, String password);
+    Login login(String uname, String password);
 }

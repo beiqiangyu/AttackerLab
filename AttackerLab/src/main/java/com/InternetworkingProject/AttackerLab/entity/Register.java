@@ -3,6 +3,6 @@ package com.InternetworkingProject.AttackerLab.entity;
 import lombok.Data;
 
 @Data
-public class Login extends User {
-    private String token;
+public class Register {
+    private boolean isSuccess;
 }
